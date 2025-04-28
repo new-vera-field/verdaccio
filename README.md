@@ -1,4 +1,4 @@
-![verdaccio logo](https://cdn.verdaccio.dev/readme/verdaccio@2x.png)
+sasdsadcdadcads![verdaccio logo](https://cdn.verdaccio.dev/readme/verdaccio@2x.png)
 
 ![verdaccio gif](https://cdn.verdaccio.dev/readme/readme-website.png)
 
