@@ -3575,6 +3575,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@verdaccio/config@npm:8.0.0-next-8.21":
+  version: 8.0.0-next-8.21
+  resolution: "@verdaccio/config@npm:8.0.0-next-8.21"
+  dependencies:
+    "@verdaccio/core": "npm:8.0.0-next-8.21"
+    debug: "npm:4.4.1"
+    js-yaml: "npm:4.1.0"
+    lodash: "npm:4.17.21"
+    minimatch: "npm:7.4.6"
+  checksum: 10/0addd650f62b85752d824d728f3ed6061f257c798aef9f3cac04bdea8f0bb67a71ba9c410020da3e0434efdf3a78668fc8e85cbca973d04dd1ac940b2d154ce1
+  languageName: node
+  linkType: hard
+
 "@verdaccio/core@npm:7.0.0-next.1":
   version: 7.0.0-next.1
   resolution: "@verdaccio/core@npm:7.0.0-next.1"
@@ -3614,6 +3627,20 @@ __metadata:
     process-warning: "npm:1.0.0"
     semver: "npm:7.7.1"
   checksum: 10/befb01fa2afe6441446dfd496964bcb1c6005635f8e687331f892143c344299e2c4c1f03f51bc47bd688d4d049c57ebeead920e298023459d823c3b01ecfef97
+  languageName: node
+  linkType: hard
+
+"@verdaccio/core@npm:8.0.0-next-8.21":
+  version: 8.0.0-next-8.21
+  resolution: "@verdaccio/core@npm:8.0.0-next-8.21"
+  dependencies:
+    ajv: "npm:8.17.1"
+    http-errors: "npm:2.0.0"
+    http-status-codes: "npm:2.3.0"
+    minimatch: "npm:7.4.6"
+    process-warning: "npm:1.0.0"
+    semver: "npm:7.7.2"
+  checksum: 10/fb24b8ae52820e86d35f4dad642d4763912d8385c1a4afbacb62b72f994efdf5686dd1c0cb96403ad91cbf00ce99212228b6ba3af5a180e80f33c19c42a7bee9
   languageName: node
   linkType: hard
 
@@ -3757,6 +3784,21 @@ __metadata:
     hpagent: "npm:1.2.0"
     lodash: "npm:4.17.21"
   checksum: 10/57f66a13ecb4409f3b79ebf039ae7fe6eba27b7b8ff55c20050804d59fcdcc095973fbeebaecb2f6839741260e798302f037dd58cf5af6bc53f7cc0d82453ed4
+  languageName: node
+  linkType: hard
+
+"@verdaccio/proxy@npm:8.0.0-next-8.21":
+  version: 8.0.0-next-8.21
+  resolution: "@verdaccio/proxy@npm:8.0.0-next-8.21"
+  dependencies:
+    "@verdaccio/config": "npm:8.0.0-next-8.21"
+    "@verdaccio/core": "npm:8.0.0-next-8.21"
+    JSONStream: "npm:1.3.5"
+    debug: "npm:4.4.1"
+    got-cjs: "npm:12.5.4"
+    hpagent: "npm:1.2.0"
+    lodash: "npm:4.17.21"
+  checksum: 10/1660fc0b49ad995b070ff75bc5aa36ccebf9602872988b0b0472ebf0696f1718d37778541eca16313b59ddae55149e80c40ef606a5cf5bff858d9597fc5885b2
   languageName: node
   linkType: hard
 
@@ -5538,6 +5580,18 @@ __metadata:
     supports-color:
       optional: true
   checksum: 10/1847944c2e3c2c732514b93d11886575625686056cd765336212dc15de2d2b29612b6cd80e1afba767bb8e1803b778caf9973e98169ef1a24a7a7009e1820367
+  languageName: node
+  linkType: hard
+
+"debug@npm:4.4.1":
+  version: 4.4.1
+  resolution: "debug@npm:4.4.1"
+  dependencies:
+    ms: "npm:^2.1.3"
+  peerDependenciesMeta:
+    supports-color:
+      optional: true
+  checksum: 10/8e2709b2144f03c7950f8804d01ccb3786373df01e406a0f66928e47001cf2d336cbed9ee137261d4f90d68d8679468c755e3548ed83ddacdc82b194d2468afe
   languageName: node
   linkType: hard
 
@@ -11067,6 +11121,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"semver@npm:7.7.2":
+  version: 7.7.2
+  resolution: "semver@npm:7.7.2"
+  bin:
+    semver: bin/semver.js
+  checksum: 10/7a24cffcaa13f53c09ce55e05efe25cd41328730b2308678624f8b9f5fc3093fc4d189f47950f0b811ff8f3c3039c24a2c36717ba7961615c682045bf03e1dda
+  languageName: node
+  linkType: hard
+
 "semver@npm:^6.0.0, semver@npm:^6.3.0":
   version: 6.3.0
   resolution: "semver@npm:6.3.0"
@@ -12509,7 +12572,7 @@ __metadata:
     "@verdaccio/local-storage-legacy": "npm:11.0.2"
     "@verdaccio/logger": "npm:8.0.0-next-8.15"
     "@verdaccio/middleware": "npm:8.0.0-next-8.15"
-    "@verdaccio/proxy": "npm:8.0.0-next-8.15"
+    "@verdaccio/proxy": "npm:8.0.0-next-8.21"
     "@verdaccio/search": "npm:8.0.0-next-8.15"
     "@verdaccio/search-indexer": "npm:8.0.0-next-8.4"
     "@verdaccio/signature": "npm:8.0.0-next-8.7"
