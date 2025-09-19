@@ -26,7 +26,7 @@
     "@verdaccio/loaders": "8.0.0-next-8.6",
     "@verdaccio/local-storage": "10.3.4",
     "@verdaccio/local-storage-legacy": "11.0.2",
-    "@verdaccio/logger": "8.0.0-next-8.15",
+    "@verdaccio/logger": "8.0.0-next-8.22",
     "@verdaccio/middleware": "8.0.0-next-8.15",
     "@verdaccio/proxy": "8.0.0-next-8.15",
     "@verdaccio/search": "8.0.0-next-8.15",
